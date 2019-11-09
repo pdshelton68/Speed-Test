@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AA0BE28227D376600076672 /* SessionCreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0BE27227D376600076672 /* SessionCreateController.swift */; };
+		4AE68C692298D78B00D33BAA /* StartSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE68C682298D78B00D33BAA /* StartSessionViewController.swift */; };
+		4AE68C6B2298D99800D33BAA /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE68C6A2298D99800D33BAA /* MainNavigationController.swift */; };
+		4AE68C6D229EAE0600D33BAA /* MetricsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE68C6C229EAE0600D33BAA /* MetricsService.swift */; };
 		4AFBD350223005BD00997B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFBD34F223005BD00997B24 /* AppDelegate.swift */; };
 		4AFBD352223005BD00997B24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFBD351223005BD00997B24 /* ViewController.swift */; };
 		4AFBD355223005BD00997B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AFBD353223005BD00997B24 /* Main.storyboard */; };
 		4AFBD357223005BF00997B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AFBD356223005BF00997B24 /* Assets.xcassets */; };
 		4AFBD35A223005BF00997B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AFBD358223005BF00997B24 /* LaunchScreen.storyboard */; };
+		4AFBD3632233542900997B24 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD3622233542900997B24 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A4AFE7E226CC40200F0A5B6 /* Speed Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Speed Test.entitlements"; sourceTree = "<group>"; };
+		4AA0BE27227D376600076672 /* SessionCreateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCreateController.swift; sourceTree = "<group>"; };
+		4AE68C682298D78B00D33BAA /* StartSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSessionViewController.swift; sourceTree = "<group>"; };
+		4AE68C6A2298D99800D33BAA /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		4AE68C6C229EAE0600D33BAA /* MetricsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsService.swift; sourceTree = "<group>"; };
 		4AFBD34C223005BD00997B24 /* Speed Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speed Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AFBD34F223005BD00997B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AFBD351223005BD00997B24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,7 @@
 		4AFBD356223005BF00997B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AFBD359223005BF00997B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AFBD35B223005BF00997B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AFBD3622233542900997B24 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFBD3632233542900997B24 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,7 @@
 			children = (
 				4AFBD34E223005BD00997B24 /* Speed Test */,
 				4AFBD34D223005BD00997B24 /* Products */,
+				4AFBD3612233542800997B24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,27 @@
 		4AFBD34E223005BD00997B24 /* Speed Test */ = {
 			isa = PBXGroup;
 			children = (
+				4A4AFE7E226CC40200F0A5B6 /* Speed Test.entitlements */,
 				4AFBD34F223005BD00997B24 /* AppDelegate.swift */,
 				4AFBD351223005BD00997B24 /* ViewController.swift */,
 				4AFBD353223005BD00997B24 /* Main.storyboard */,
 				4AFBD356223005BF00997B24 /* Assets.xcassets */,
 				4AFBD358223005BF00997B24 /* LaunchScreen.storyboard */,
 				4AFBD35B223005BF00997B24 /* Info.plist */,
+				4AA0BE27227D376600076672 /* SessionCreateController.swift */,
+				4AE68C682298D78B00D33BAA /* StartSessionViewController.swift */,
+				4AE68C6A2298D99800D33BAA /* MainNavigationController.swift */,
+				4AE68C6C229EAE0600D33BAA /* MetricsService.swift */,
 			);
 			path = "Speed Test";
+			sourceTree = "<group>";
+		};
+		4AFBD3612233542800997B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AFBD3622233542900997B24 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +122,15 @@
 				TargetAttributes = {
 					4AFBD34B223005BD00997B24 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,7 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE68C6B2298D99800D33BAA /* MainNavigationController.swift in Sources */,
+				4AE68C6D229EAE0600D33BAA /* MetricsService.swift in Sources */,
+				4AE68C692298D78B00D33BAA /* StartSessionViewController.swift in Sources */,
 				4AFBD352223005BD00997B24 /* ViewController.swift in Sources */,
+				4AA0BE28227D376600076672 /* SessionCreateController.swift in Sources */,
 				4AFBD350223005BD00997B24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,8 +330,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ps.Speed-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,8 +348,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ps.Speed-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -18,8 +18,23 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>IPMetricsServiceURL</key>
+	<string>https://frozen-temple-18301.herokuapp.com</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>asdfdfdfdfer</string>
+	<key>NSLocationUsageDescription</key>
+	<string>asdf</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>adsfdf</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
